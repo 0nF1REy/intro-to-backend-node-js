@@ -1,14 +1,48 @@
 {
-  "name": "intro-to-backend",
-  "version": "1.0.0",
-  "description": "a tutorial for intro to backend",
-  "license": "MIT",
-  "author": "Alan Ryan da Silva Domingues",
+  "name": "intro-to-backend-node-js",
+  "version": "1.0.1",
+  "description": "A minimal Node.js + Express backend demonstrating a blog-style REST API with posts and user management. Built with Mongoose, dotenv and bcrypt, this project shows CRUD operations, basic authentication, and routing patterns for learning and quick prototyping.",
+  "keywords": [
+    "nodejs",
+    "express",
+    "mongoose",
+    "mongodb",
+    "rest-api",
+    "api",
+    "backend",
+    "blog",
+    "posts",
+    "users",
+    "authentication",
+    "crud",
+    "tutorial",
+    "learning",
+    "javascript",
+    "nodemon",
+    "dotenv",
+    "bcrypt",
+    "mvc",
+    "starter"
+  ],
   "main": "index.js",
   "type": "module",
   "scripts": {
     "start": "node backend/src/index.js",
     "dev": "nodemon backend/src/index.js"
+  },
+  "author": {
+    "name": "Alan Ryan da Silva Domingues",
+    "email": "alanryan619@gmail.com",
+    "url": "https://github.com/0nF1REy"
+  },
+  "license": "MIT",
+  "homepage": "https://intro-to-backend-node-js.onrender.com/",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/0nF1REy/intro-to-backend-node-js.git"
+  },
+  "bugs": {
+    "url": "https://github.com/0nF1REy/intro-to-backend-node-js/issues"
   },
   "dependencies": {
     "bcrypt": "^6.0.0",
