@@ -1,6 +1,6 @@
 {
   "name": "intro-to-backend-node-js",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "A minimal Node.js + Express backend demonstrating a blog-style REST API with posts and user management. Built with Mongoose, dotenv and bcrypt, this project shows CRUD operations, basic authentication, and routing patterns for learning and quick prototyping.",
   "keywords": [
     "nodejs",
@@ -36,7 +36,6 @@
     "url": "https://github.com/0nF1REy"
   },
   "license": "MIT",
-  "homepage": "https://intro-to-backend-node-js.onrender.com/",
   "repository": {
     "type": "git",
     "url": "https://github.com/0nF1REy/intro-to-backend-node-js.git"
